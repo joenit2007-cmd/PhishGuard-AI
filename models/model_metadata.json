@@ -1,0 +1,260 @@
+{
+  "best_model": "Multinomial Naive Bayes",
+  "trained_at": "2026-11-20T13:58:45.555614",
+  "total_records": 341,
+  "total_template_groups": 103,
+  "split_methodology": "StratifiedGroupKFold (Duplicate-Aware, Zero Template Leakage)",
+  "train_records": 275,
+  "test_records": 66,
+  "phishing_count_total": 178,
+  "safe_count_total": 163,
+  "train_phishing_count": 145,
+  "train_safe_count": 130,
+  "test_phishing_count": 33,
+  "test_safe_count": 33,
+  "template_group_overlap": 0,
+  "all_metrics": {
+    "Logistic Regression": {
+      "model_name": "Logistic Regression",
+      "accuracy": 0.9697,
+      "precision": 1.0,
+      "recall": 0.9394,
+      "f1_score": 0.9688,
+      "macro_f1": 0.9697,
+      "roc_auc": 1.0,
+      "confusion_matrix": [
+        [
+          33,
+          0
+        ],
+        [
+          2,
+          31
+        ]
+      ],
+      "classification_report": {
+        "SAFE": {
+          "precision": 0.9428571428571428,
+          "recall": 1.0,
+          "f1-score": 0.9705882352941176,
+          "support": 33.0
+        },
+        "PHISHING": {
+          "precision": 1.0,
+          "recall": 0.9393939393939394,
+          "f1-score": 0.96875,
+          "support": 33.0
+        },
+        "accuracy": 0.9696969696969697,
+        "macro avg": {
+          "precision": 0.9714285714285714,
+          "recall": 0.9696969696969697,
+          "f1-score": 0.9696691176470589,
+          "support": 66.0
+        },
+        "weighted avg": {
+          "precision": 0.9714285714285714,
+          "recall": 0.9696969696969697,
+          "f1-score": 0.9696691176470589,
+          "support": 66.0
+        }
+      }
+    },
+    "Multinomial Naive Bayes": {
+      "model_name": "Multinomial Naive Bayes",
+      "accuracy": 0.9848,
+      "precision": 1.0,
+      "recall": 0.9697,
+      "f1_score": 0.9846,
+      "macro_f1": 0.9848,
+      "roc_auc": 1.0,
+      "confusion_matrix": [
+        [
+          33,
+          0
+        ],
+        [
+          1,
+          32
+        ]
+      ],
+      "classification_report": {
+        "SAFE": {
+          "precision": 0.9705882352941176,
+          "recall": 1.0,
+          "f1-score": 0.9850746268656716,
+          "support": 33.0
+        },
+        "PHISHING": {
+          "precision": 1.0,
+          "recall": 0.9696969696969697,
+          "f1-score": 0.9846153846153847,
+          "support": 33.0
+        },
+        "accuracy": 0.9848484848484849,
+        "macro avg": {
+          "precision": 0.9852941176470589,
+          "recall": 0.9848484848484849,
+          "f1-score": 0.9848450057405281,
+          "support": 66.0
+        },
+        "weighted avg": {
+          "precision": 0.9852941176470589,
+          "recall": 0.9848484848484849,
+          "f1-score": 0.9848450057405281,
+          "support": 66.0
+        }
+      }
+    },
+    "Random Forest Classifier": {
+      "model_name": "Random Forest Classifier",
+      "accuracy": 0.9697,
+      "precision": 1.0,
+      "recall": 0.9394,
+      "f1_score": 0.9688,
+      "macro_f1": 0.9697,
+      "roc_auc": 1.0,
+      "confusion_matrix": [
+        [
+          33,
+          0
+        ],
+        [
+          2,
+          31
+        ]
+      ],
+      "classification_report": {
+        "SAFE": {
+          "precision": 0.9428571428571428,
+          "recall": 1.0,
+          "f1-score": 0.9705882352941176,
+          "support": 33.0
+        },
+        "PHISHING": {
+          "precision": 1.0,
+          "recall": 0.9393939393939394,
+          "f1-score": 0.96875,
+          "support": 33.0
+        },
+        "accuracy": 0.9696969696969697,
+        "macro avg": {
+          "precision": 0.9714285714285714,
+          "recall": 0.9696969696969697,
+          "f1-score": 0.9696691176470589,
+          "support": 66.0
+        },
+        "weighted avg": {
+          "precision": 0.9714285714285714,
+          "recall": 0.9696969696969697,
+          "f1-score": 0.9696691176470589,
+          "support": 66.0
+        }
+      }
+    }
+  },
+  "best_metrics": {
+    "model_name": "Multinomial Naive Bayes",
+    "accuracy": 0.9848,
+    "precision": 1.0,
+    "recall": 0.9697,
+    "f1_score": 0.9846,
+    "macro_f1": 0.9848,
+    "roc_auc": 1.0,
+    "confusion_matrix": [
+      [
+        33,
+        0
+      ],
+      [
+        1,
+        32
+      ]
+    ],
+    "classification_report": {
+      "SAFE": {
+        "precision": 0.9705882352941176,
+        "recall": 1.0,
+        "f1-score": 0.9850746268656716,
+        "support": 33.0
+      },
+      "PHISHING": {
+        "precision": 1.0,
+        "recall": 0.9696969696969697,
+        "f1-score": 0.9846153846153847,
+        "support": 33.0
+      },
+      "accuracy": 0.9848484848484849,
+      "macro avg": {
+        "precision": 0.9852941176470589,
+        "recall": 0.9848484848484849,
+        "f1-score": 0.9848450057405281,
+        "support": 66.0
+      },
+      "weighted avg": {
+        "precision": 0.9852941176470589,
+        "recall": 0.9848484848484849,
+        "f1-score": 0.9848450057405281,
+        "support": 66.0
+      }
+    }
+  },
+  "cross_validation_5fold": {
+    "Logistic Regression": {
+      "mean_accuracy": 0.9939,
+      "std_accuracy": 0.0121,
+      "mean_precision": 1.0,
+      "std_precision": 0.0,
+      "mean_recall": 0.9879,
+      "std_recall": 0.0242,
+      "mean_f1": 0.9938,
+      "std_f1": 0.0125,
+      "fold_f1_scores": [
+        1.0,
+        1.0,
+        1.0,
+        0.9688,
+        1.0
+      ]
+    },
+    "Multinomial Naive Bayes": {
+      "mean_accuracy": 0.9939,
+      "std_accuracy": 0.0075,
+      "mean_precision": 0.9939,
+      "std_precision": 0.0121,
+      "mean_recall": 0.9939,
+      "std_recall": 0.0121,
+      "mean_f1": 0.9938,
+      "std_f1": 0.0075,
+      "fold_f1_scores": [
+        1.0,
+        1.0,
+        1.0,
+        0.9846,
+        0.9846
+      ]
+    },
+    "Random Forest Classifier": {
+      "mean_accuracy": 0.9939,
+      "std_accuracy": 0.0121,
+      "mean_precision": 1.0,
+      "std_precision": 0.0,
+      "mean_recall": 0.9879,
+      "std_recall": 0.0242,
+      "mean_f1": 0.9938,
+      "std_f1": 0.0125,
+      "fold_f1_scores": [
+        1.0,
+        1.0,
+        1.0,
+        0.9688,
+        1.0
+      ]
+    }
+  },
+  "dataset_limitations": [
+    "Dataset is internally curated (80 manual seed archetypes + 261 synthetic variations).",
+    "Not sampled from historical email server archives; embedded URLs are mock domains.",
+    "Group-based splitting prevents template memorization, but true production generalization requires external benchmarking."
+  ]
+}
